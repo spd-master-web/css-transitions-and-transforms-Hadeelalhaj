@@ -1,1 +1,34 @@
 /* box */
+
+:root {
+  --theme-color-gray: #d6d6d6;
+  --theme-color-black: #212121;
+  --theme-color-green: #42d684;
+
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-wrapper {
+  margin-top: 20%;
+}
+
+.b-box {
+  
+  max-width: 500px;
+  height: 200px;
+  font-size: 200px;
+  font-weight: 700;
+  display: block;
+  background-color: var(--theme-color-gray);
+}
+
+
+
