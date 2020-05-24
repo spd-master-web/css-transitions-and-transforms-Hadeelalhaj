@@ -52,11 +52,9 @@ body {
   width: 25px;
 }
 
-btn-container:hover .btn-txt {
-  position: absolute;
-  top: 22px;
-  left: 60px;
-  opacity: 1;
+btn-container:hover .btn-text {
+ 
+  opacity: 50%;
   transition: 900ms ease-in 200ms;
 }
 /* .btn-text {
