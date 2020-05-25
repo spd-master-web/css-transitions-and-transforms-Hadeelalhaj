@@ -18,15 +18,19 @@ body {
   width: 70px;
   height: 70px;
   display: block;
+  display: flex;
+
 
   position: relative;
   
 
   box-shadow: 0px 8px 8px -4px #b6b5b5;
-  transition: 200ms ease-out 200ms;
-  overflow: hidden;
 
-  border-radius: 50%;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-delay: .1s;
+
+  border-radius: 50px;
   background-color: black;
 }
 
@@ -36,7 +40,6 @@ body {
   padding: 20px;
   width: 170px;
   height: 70px;
-
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -44,38 +47,25 @@ body {
   border-radius: 50px;
   box-shadow: 0px 8px 8px 5px #b6b5b5;
   background-color: black;
-  transition: 200ms ease-in 200ms;
+  transition: 100ms ease-in 200ms;
 }
   
 .btn-wrapper img {
- 
   width: 25px;
 }
 
-btn-container:hover .btn-text {
- 
-  opacity: 50%;
-  transition: 900ms ease-in 200ms;
-}
-/* .btn-text {
-  position: absolute;
-  top: 50px;
-  left: 60px;
-  opacity: 0;
-  transition: 200ms ease-in 200ms;
+.btn-text {
+  
+  
+  transition-property: all;
+  transition-delay: .1s;
+  transition-duration: 0.5s;
 }
 
 .btn-container:hover .btn-text {
-  position: absolute;
-  top: 22px;
-  left: 60px;
-  opacity: 1;
-  transition: 200ms ease-in 200ms;
+ 
+  transition: 100ms ease-in 200ms;
+  opacity: 0%;
+ 
+  
 }
-.btn-container:hover .btn-txt {
-  position: absolute;
-  top: 22px;
-  left: 60px;
-  opacity: 1;
-  transition: 200ms ease-in 200ms;
-} */
