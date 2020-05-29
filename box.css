@@ -21,6 +21,7 @@ body {
   height: 200px;
   position: relative;
   overflow: hidden;
+  transition: 0.5s ease;
 }
 
 .b-box {
@@ -33,7 +34,7 @@ body {
   top: 0;
   left: 0;
   
-  transition: 0.5s ease;
+  /* transition: 0.5s ease; */
 }
 
 

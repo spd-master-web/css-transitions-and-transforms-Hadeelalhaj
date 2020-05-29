@@ -3,69 +3,68 @@
   box-sizing: border-box;
 }
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 25px;
-  text-align: center;
   color: white;
+}
+
+div {
+  margin: 25%;
 }
 
 
 .btn-wrapper {
-  margin: 20% auto;
-  padding: 20px;
-  width: 70px;
-  height: 70px;
-  display: block;
-  display: flex;
-
-
-  position: relative;
+  margin: 0 auto;
+  padding: 0;
   
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 
+  overflow: hidden;
+  border: none;
+  border-radius: 50px;
   box-shadow: 0px 8px 8px -4px #b6b5b5;
 
-  transition-property: all;
-  transition-duration: 0.5s;
-  transition-delay: .1s;
-
-  border-radius: 50px;
+  transition: box-shadow 200ms ease-out;
   background-color: black;
+  color: white;
 }
 
 .btn-wrapper:hover {
 
-  margin: 20% auto;
-  padding: 20px;
-  width: 170px;
-  height: 70px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  margin-left: -1em;
+  margin-right: 1em;
   
-  border-radius: 50px;
-  box-shadow: 0px 8px 8px 5px #b6b5b5;
-  background-color: black;
-  transition: 100ms ease-in 200ms;
+  box-shadow: 0 0.5em 0.5em -0.2em rgba(129, 129, 129, 0.774);
 }
   
-.btn-wrapper img {
+img {
+  margin: 20px;
   width: 25px;
+  height: auto;
+  align-self: center;
+  display: inline-block;
+  
 }
 
 .btn-text {
   
-  
-  transition-property: all;
-  transition-delay: .1s;
-  transition-duration: 0.5s;
+  margin: 0;
+  width: 0;
+  opacity: 0;
+  transform: translateY(2em);
 }
 
 .btn-container:hover .btn-text {
+  margin: 10px 10px 10px 0;
+  width: auto;
+  opacity: 1;
  
   transition: 100ms ease-in 200ms;
-  opacity: 0%;
+  transform: translateY(0);
  
-  
 }
